@@ -1,7 +1,0 @@
-version: 1.2
-workflows:
-  - name: hello-world
-    subclass: WDL
-    primaryDescriptorPath: /hello-world/hello-world.wdl
-    testParameterFiles:
-      - /hello-world/hello-world.inputs.json
